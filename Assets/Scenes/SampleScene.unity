@@ -503,7 +503,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &478840966
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -574,7 +574,7 @@ Transform:
   m_LocalScale: {x: 7.9482045, y: 7.9482045, z: 7.9482045}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &526491081
 GameObject:
@@ -684,7 +684,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!154 &542487397
 TerrainCollider:
   m_ObjectHideFlags: 0
@@ -745,7 +745,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &609310763
 GameObject:
@@ -857,11 +857,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   target: {fileID: 8612363241298071419}
-  vitesse: 10
+  vitesse: 15
   randomTargetDistMin: 2
   randomTargetDistMax: 10
   useRandomTarget: 0
-  Sensisbility: 0
+  Sensisbility: 10
 --- !u!143 &630567959
 CharacterController:
   m_ObjectHideFlags: 0
@@ -1057,7 +1057,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &638495103
 Transform:
   m_ObjectHideFlags: 0
@@ -1072,7 +1072,7 @@ Transform:
   - {fileID: 822486956}
   - {fileID: 2048487362}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &705507993
 GameObject:
@@ -1147,7 +1147,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 1.4e-44}
+  m_BoundingSphereOverride: {x: 0, y: 9441280, z: 1e-45, w: 9441280}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
@@ -1512,22 +1512,22 @@ PrefabInstance:
     - target: {fileID: 7395904410984392657, guid: 1378b5064394647bfb739c1f2bad19df,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7430844510060025095, guid: 1378b5064394647bfb739c1f2bad19df,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 274.82
+      value: 265.31
       objectReference: {fileID: 0}
     - target: {fileID: 7430844510060025095, guid: 1378b5064394647bfb739c1f2bad19df,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 15.79
+      value: 15.74
       objectReference: {fileID: 0}
     - target: {fileID: 7430844510060025095, guid: 1378b5064394647bfb739c1f2bad19df,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 149.91
+      value: 143.66
       objectReference: {fileID: 0}
     - target: {fileID: 7430844510060025095, guid: 1378b5064394647bfb739c1f2bad19df,
         type: 3}
@@ -1935,13 +1935,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 0.9659258, z: -0.2588191, w: 0}
-  m_LocalPosition: {x: 268.7, y: 19.9, z: 172.1}
+  m_LocalRotation: {x: -0.058053948, y: 0.72439146, z: -0.061465535, w: -0.6841848}
+  m_LocalPosition: {x: 19.7, y: 7.45, z: -1.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 8612363241298071419}
   m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 30.000002, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 9.7, y: 266.72998, z: 0}
 --- !u!1 &1009756312
 GameObject:
   m_ObjectHideFlags: 0
@@ -2995,7 +2995,7 @@ PrefabInstance:
     - target: {fileID: 8612363240408326996, guid: f92d97b5140a94b238ef3d5d518c67a0,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 16.33
+      value: 15.73
       objectReference: {fileID: 0}
     - target: {fileID: 8612363240408326996, guid: f92d97b5140a94b238ef3d5d518c67a0,
         type: 3}
@@ -3062,7 +3062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa61ed1a1c979490e8358e6af93605a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 10
+  Speed: 20
   Sensisbility: 5
   Jump: 5
   Gravity: 20
@@ -3101,8 +3101,9 @@ Animation:
   serializedVersion: 3
   m_Animation: {fileID: 0}
   m_Animations:
-  - {fileID: 7400000, guid: a3edf256ac2664e3db043543e2859c38, type: 2}
-  - {fileID: 7400000, guid: 9c0fc235f80104bc59192215c24b569d, type: 2}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 7400000, guid: aac276c7a1d5c4e5e992aae781d2960f, type: 2}
   m_WrapMode: 0
   m_PlayAutomatically: 0
   m_AnimatePhysics: 0
