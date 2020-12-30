@@ -44,6 +44,6 @@ public class SimpleMove : MonoBehaviour
         transform.position += deplacement;
 
         transform.LookAt(target);
-
     }
-} 
+    
+}
